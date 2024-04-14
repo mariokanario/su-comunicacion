@@ -7,7 +7,7 @@ import Two from "@/public/img/recent/slider/2.png";
 import Three from "@/public/img/recent/slider/1.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, Navigation } from "swiper";
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import "swiper/css";
 
 const ProjectOne = () => {

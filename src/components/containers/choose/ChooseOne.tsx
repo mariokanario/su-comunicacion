@@ -7,7 +7,7 @@ import Two from "@/public/img/choose/02.png";
 import Three from "@/public/img/choose/03.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper";
+import { Autoplay, Pagination } from 'swiper/modules';
 import "swiper/css";
 
 const ChooseOne = () => {
