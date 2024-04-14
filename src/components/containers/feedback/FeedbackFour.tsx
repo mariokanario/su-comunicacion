@@ -8,7 +8,7 @@ import Four from "@/public/img/index-4/sheap-yellow.png";
 import Five from "@/public/img/index-4/star-red.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation } from "swiper";
+import { Autoplay, Navigation } from 'swiper/modules';
 import "swiper/css";
 
 const FeedbackFour = () => {

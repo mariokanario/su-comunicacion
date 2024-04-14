@@ -14,7 +14,7 @@ import Five from "@/public/img/feedback/author-1.png";
 import Six from "@/public/img/feedback/author-1.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation } from "swiper";
+import { Autoplay, Navigation } from 'swiper/modules';
 import "swiper/css";
 
 const FeedbackOne = () => {

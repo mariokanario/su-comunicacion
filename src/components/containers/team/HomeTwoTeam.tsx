@@ -7,7 +7,7 @@ import Two from "@/public/img/team/02.jpg";
 import Three from "@/public/img/team/03.jpg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation } from "swiper";
+import { Autoplay, Navigation } from 'swiper/modules';
 import "swiper/css";
 
 const HomeTwoTeam = () => {
