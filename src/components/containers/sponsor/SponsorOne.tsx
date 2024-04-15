@@ -7,7 +7,7 @@ import Four from "@/public/img/brand/4.png";
 import Five from "@/public/img/brand/5.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
+import { Autoplay } from 'swiper/modules';
 import "swiper/css";
 
 const SponsorOne = () => {
