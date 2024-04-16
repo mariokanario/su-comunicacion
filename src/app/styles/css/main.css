@@ -991,7 +991,7 @@ input[type=color] {
   right: -14px;
   width: 8px;
   height: 8px;
-  background: #f8d458;
+  background: #EA5518;
   border-radius: 50%;
 }
 
@@ -2641,7 +2641,7 @@ input[type=color] {
 }
 
 .hero__main-wrapper {
-  padding-top: 120px;
+  padding-top: 60px;
 }
 
 .hero__search-input {
@@ -3069,8 +3069,8 @@ input[type=color] {
 .about__features-icon {
   width: 34px;
   height: 34px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#3887fe), to(#303591));
-  background: linear-gradient(#3887fe 0%, #303591 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#3887fe), to(#20457F));
+  background: linear-gradient(#3887fe 0%, #20457F 100%);
   line-height: 35px;
   text-align: center;
   border-radius: 50%;
@@ -3104,8 +3104,8 @@ input[type=color] {
 }
 
 .about__features-icon.s-3 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8d458), to(#fc9249));
-  background: linear-gradient(#f8d458 0%, #fc9249 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#EA5518), to(#fc9249));
+  background: linear-gradient(#EA5518 0%, #fc9249 100%);
 }
 
 .about__features-icon.s-3:after {
@@ -3204,7 +3204,7 @@ input[type=color] {
 }
 
 .about__progress-content span.s-2 {
-  color: #f8d458;
+  color: #EA5518;
 }
 
 .about__thumb-3 img {
@@ -3793,8 +3793,8 @@ input[type=color] {
 .expart__cercle-2 {
   width: 768px;
   height: 768px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8d458), to(#fff));
-  background: linear-gradient(#f8d458 0%, #fff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#EA5518), to(#fff));
+  background: linear-gradient(#EA5518 0%, #fff 100%);
   opacity: 0.1;
   border-radius: 50%;
   position: absolute;
@@ -4065,7 +4065,7 @@ input[type=color] {
 .features__cercle-1 {
   width: 48px;
   height: 48px;
-  background: #f8d458;
+  background: #EA5518;
   border-radius: 50%;
   position: absolute;
   top: 48px;
@@ -5483,7 +5483,7 @@ input[type=color] {
 .touch__carcle {
   width: 156px;
   height: 156px;
-  background: #f8d458;
+  background: #EA5518;
   border-radius: 50%;
   position: absolute;
   top: -40px;
@@ -5644,7 +5644,7 @@ input.e-check-input:checked::after {
   bottom: 33%;
   width: 86px;
   height: 86px;
-  background: #f8d458;
+  background: #EA5518;
   border-radius: 50%;
   right: 50px;
 }

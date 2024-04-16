@@ -6,7 +6,7 @@
 
 .work__item-grid {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(2, 1fr);
 	column-gap: 125px;
 	@media #{$sm,$md}{
 		column-gap: 30px;

@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import One from "@/../../public/img/shape/cercle.png";
-import Two from "@/../../public/img/hero/hero-thumb-2.png";
+import Two from "@/../../public/img/illustrations/header.svg";
 import Three from "@/../../public/img/shape/hero-shape-5.png";
 import Four from "@/../../public/img/shape/hero-shape-6.png";
 import Five from "@/../../public/img/shape/rectangle-3.png";
@@ -18,7 +18,7 @@ const BannerTwo = () => {
   return (
     <section className="hero__area hero__hight d-flex align-items-center include__bg p-relative banner-bg-two">
       <div className="hero__cercle">
-        <Image src={One} alt="image not found" />
+        {/* <Image src={One} alt="image not found" /> */}
       </div>
       <div className="container">
         <div className="hero__main-wrapper">
@@ -44,7 +44,7 @@ const BannerTwo = () => {
                 <div className="hero__thumb-2 w-img">
                   <Image src={Two} alt="image not found" />
                 </div>
-                <div className="hero__shape-7">
+                {/* <div className="hero__shape-7">
                   <Image src={Three} alt="image not found" />
                 </div>
                 <div className="hero__shape-8">
@@ -52,7 +52,7 @@ const BannerTwo = () => {
                 </div>
                 <div className="hero__regtangle">
                   <Image src={Five} alt="Image" />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

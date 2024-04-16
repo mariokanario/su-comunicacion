@@ -1,20 +1,15 @@
 import React from "react";
 import Image from "next/image";
 
-import One from "@/public/img/shape/hero-shape-3.png";
-import Two from "@/public/img/shape/hero-shape-4.png";
-import Three from "@/public/img/hero/hero-thumb-1.png";
-import Four from "@/public/img/shape/dot.png";
+import One from "@/../../public/img/shape/hero-shape-3.png";
+import Two from "@/../../public/img/shape/hero-shape-4.png";
+import Three from "@/../../public/img/hero/hero-thumb-1.png";
+import Four from "@/../../public/img/shape/dot.png";
 
 const HomeThreeBanner = () => {
   return (
     <section className="hero__area hero__hight d-flex align-items-center p-relative">
-      <div className="hero__shape-3">
-        <Image src={One} alt="image not found" />
-      </div>
-      <div className="hero__shape-4">
-        <Image src={Two} alt="image not found" />
-      </div>
+      
       <div className="container-fluid">
         <div className="hero__main-wrapper">
           <div className="row align-items-center">

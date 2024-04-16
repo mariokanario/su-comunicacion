@@ -2,10 +2,10 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import One from "@/public/img/shape/hero-shape-9.png";
-import Two from "@/public/img/shape/hero-shape-10.png";
-import Three from "@/public/img/shape/hero-shape-11.png";
-import Four from "@/public/img/hero/hero-thumb-3.png";
+import One from "@/../..//public/img/shape/hero-shape-9.png";
+import Two from "@/../..//public/img/shape/hero-shape-10.png";
+import Three from "@/../..//public/img/shape/hero-shape-11.png";
+import Four from "@/../..//public/img/hero/hero-thumb-3.png";
 
 const HomeBannerOne = () => {
   return (

@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import One from "@/public/img/shape/breadcrum-1.png.png";
+import One from "@/../../public/img/shape/breadcrum-1.png";
 
 const Banner = ({ title }: any) => {
   return (

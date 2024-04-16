@@ -95,7 +95,7 @@ const HomeTwoBoost = () => {
                     data-name="Path 26014"
                     d="M321.713,46.082l-25.594,3.962,0,.008.163,1.6a23.645,23.645,0,0,0,7.662,14.089Z"
                     transform="translate(-296.119 -46.082)"
-                    fill="#f8d458"
+                    fill="#EA5518"
                   />
                 </svg>
               </div>

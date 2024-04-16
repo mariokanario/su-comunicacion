@@ -6,6 +6,12 @@
     background-color: white;
 }
 
-.swiper-wrapper{
+.swiper-wrapper {
     align-items: center;
+}
+
+.banner-bg-three {
+    background-image: url("/img/shape/d.png");
+    background-position: top right;
+    background-repeat: no-repeat;
 }

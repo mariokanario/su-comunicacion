@@ -5,23 +5,23 @@ import One from "@/../../public/img/shape/about-shape-1.png";
 import Two from "@/../../public/img/shape/about-shape-2.png";
 import Three from "@/../../public/img/shape/rectangle-3.png";
 import Four from "@/../../public/img/shape/rectangle-4.png";
-import Five from "@/../../public/img/about/about-thumb.png";
+import Five from "@/../../public/img/illustrations/sec1.svg";
 
 const AboutTwo = () => {
   return (
     <div className="about__area grey-bg z-index-11 p-relative pt-120 pb-60">
-      <div className="about__shape-1">
+      {/* <div className="about__shape-1">
         <Image src={One} alt="image not found" />
-      </div>
-      <div className="about__shape-2">
+      </div> */}
+      {/* <div className="about__shape-2">
         <Image src={Two} alt="image not found" />
-      </div>
-      <div className="about__shape-3">
+      </div> */}
+      {/* <div className="about__shape-3">
         <Image src={Three} alt="image not found" />
-      </div>
-      <div className="about__shape-4">
+      </div> */}
+      {/* <div className="about__shape-4">
         <Image src={Four} alt="image not found" />
-      </div>
+      </div> */}
       <div className="container">
         <div
           className="row align-items-center "
@@ -30,7 +30,7 @@ const AboutTwo = () => {
         >
           <div className="col-xl-6 col-lg-6">
             <div className="about__thumb-wrapper mb-60">
-              <div className="about__thumb w-img">
+              <div className="about__thumb w-img pe-5">
                 <Image src={Five} alt="image not found" />
               </div>
             </div>

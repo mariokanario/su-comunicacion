@@ -40,7 +40,7 @@
 .about__features-icon {
 	width: 34px;
 	height: 34px;
-	background: linear-gradient(#3887fe 0%, #303591 100%);
+	background: linear-gradient(#3887fe 0%, #20457F 100%);
 	line-height: 35px;
 	text-align: center;
 	border-radius: 50%;
@@ -67,7 +67,7 @@
 		}
 	}
 	&.s-3 {
-		background: linear-gradient(#f8d458 0%, #fc9249 100%);
+		background: linear-gradient(#EA5518 0%, #fc9249 100%);
 		&:after {
 			border: 1px solid #f8ce56;
 		}
@@ -143,7 +143,7 @@
 		margin-bottom: 18px;
 		line-height: 1;
 		&.s-2 {
-			color: #f8d458;
+			color: #EA5518;
 		}
 	}
 }

@@ -89,16 +89,10 @@ const HeaderTwo = () => {
                   <nav className="mean-nav">
                     <ul>
                       <li className="has-dropdown">
-                        <button
-                          aria-label="Select Dropdown"
-                          className={`nul ${isSubMenuButton("home")}`}
-                          onClick={() => handleSubmenu("home")}
-                        >
-                          Inicio
-                        </button>
+                        <Link href="/">Inicio</Link>
                       </li>
                       <li>
-                        <Link href="/service">Empresa</Link>
+                        <Link href="/about">Empresa</Link>
                       </li>
                       <li>
                         <Link href="/service">Portafolio</Link>
@@ -311,7 +305,7 @@ const HeaderTwo = () => {
                       </button>
                     </div>
                   </div>
-                  <div className="header__toggle d-md-none">
+                  <div className="header__toggle d-md-none" style={{backgroundColor: "black"}}>
                     <button
                       className="sidebar__active"
                       aria-label="Toggle Sidebar"

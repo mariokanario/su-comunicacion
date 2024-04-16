@@ -1,10 +1,12 @@
+"use client"
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import One from "@/public/img/team/01.jpg";
-import Two from "@/public/img/team/02.jpg";
-import Three from "@/public/img/team/03.jpg";
+import One from "@/../../public/img/team/01.jpg";
+import Two from "@/../../public/img/team/02.jpg";
+import Three from "@/../../public/img/team/03.jpg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from 'swiper/modules';
@@ -18,7 +20,7 @@ const AboutTeam = () => {
           <div className="col-xl-6 col-lg-6">
             <div className="section__title-wrapper mb-60">
               <span className="section__subtitle-2">
-                <span>Our</span> expert team
+                <span>Nuestro</span> equipo
               </span>
               <h2 className="section__title-2">
                 Let&apos;s Collaborate With Our SEO Expert

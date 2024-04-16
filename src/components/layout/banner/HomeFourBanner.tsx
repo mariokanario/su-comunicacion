@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 
-import One from "@/public/img/index-4/hero.png";
-import Two from "@/public/img/index-4/spiral.png";
-import Three from "@/public/img/index-4/sheap.png";
-import Four from "@/public/img/index-4/star.png";
+import One from "@/../../public/img/index-4/hero.png";
+import Two from "@/../../public/img/index-4/spiral.png";
+import Three from "@/../../public/img/index-4/sheap.png";
+import Four from "@/../../public/img/index-4/star.png";
 
 const HomeFourBanner = () => {
   return (
