@@ -15,3 +15,23 @@
     background-position: top right;
     background-repeat: no-repeat;
 }
+
+.touch__input textarea {
+    width: 100%;
+    height: 60px;
+    background: #f9f9f9;
+    border: 0;
+    padding: 0 20px;
+    border-radius: 10px;
+    color: #bababa;
+}
+
+.touch-bg:before {
+    position: absolute;
+    content: "";
+    background: var(--clr-theme-4);
+    height: 620px;
+    z-index: -1;
+    width: 100%;
+    top: 0;
+}

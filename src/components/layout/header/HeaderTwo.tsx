@@ -95,7 +95,7 @@ const HeaderTwo = () => {
                         <Link href="/about">Empresa</Link>
                       </li>
                       <li>
-                        <Link href="/service">Portafolio</Link>
+                        <Link href="/portfolio">Portafolio</Link>
                       </li>
                       <li className="has-dropdown">
                         <button

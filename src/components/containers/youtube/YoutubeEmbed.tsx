@@ -7,7 +7,14 @@ type videoProps = {
 const YoutubeEmbed = ({ embedId }: videoProps) => {
   return (
     <>
-      <iframe
+
+   
+      <video width="100%" controls>
+        <source src="@/../../video/G-1-1.mp4" type="video/mp4">
+        </source>
+      </video>
+
+      {/* <iframe
         width="200"
         height="100"
         src={`https://www.youtube.com/embed/${embedId}`}
@@ -15,7 +22,7 @@ const YoutubeEmbed = ({ embedId }: videoProps) => {
         allowFullScreen
         title="Embedded youtube"
         className="video"
-      />
+      /> */}
     </>
   );
 };
