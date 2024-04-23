@@ -43,7 +43,7 @@ const GedsysSection = () => {
                 GEDSYS móvil
               </div>
               <p>
-                La portabilidad es un factor  fundamental y determinante para todas las personas, empresas e instituciones, nuestra solución cuenta con herramientas que satisfacen esa demanda de oportunidad,  estamos  en capacidad de realizar algunas de las transacciones documentales más significativas, por medio de dispositivos  móviles como  teléfonos celulares, tablets  o "máquinas" que tengan la capacidad de navegar por internet y respondan a la tecnología smart.
+                La portabilidad es un factor  fundamental y determinante para todas las personas, empresas e instituciones, nuestra solución cuenta con herramientas que satisfacen esa demanda de oportunidad,  estamos  en capacidad de realizar algunas de las transacciones documentales más significativas, por medio de dispositivos  móviles como  teléfonos celulares, tablets  o &quot;máquinas&quot; que tengan la capacidad de navegar por internet y respondan a la tecnología smart.
               </p>
             </div>
           </div>
@@ -78,18 +78,8 @@ const GedsysSection = () => {
           </div>
         </div>
 
-
-
-
-
       </div>
 
-
-  
-
-
-
-      
     </div>
   );
 };

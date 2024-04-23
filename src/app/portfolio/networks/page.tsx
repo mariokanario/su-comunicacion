@@ -78,7 +78,7 @@ const page = () => {
                       <i className="fa-solid fa-circle-check"></i>
                     </div>
                     <div className="development__features-text">
-                      Redes eléctricas residenciales , comerciales e industriales de acuerdo a la norma "RETIE". 
+                      Redes eléctricas residenciales , comerciales e industriales de acuerdo a la norma &quot;RETIE&quot;.
                     </div>
                   </div>
                   <div className="development__features-item">
