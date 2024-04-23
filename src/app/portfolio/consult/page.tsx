@@ -12,7 +12,7 @@ const page = () => {
   return (
     <Layout header={2} footer={2}>
       
-      <div className="about__area p-relative pt-120 pb-60">
+      <div className="about__area p-relative pt-120 pb-60 banner-bg-two">
         <div className="container">
           <div
             className="row align-items-center "

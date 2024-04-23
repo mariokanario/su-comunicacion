@@ -7,6 +7,8 @@ import Two from "@/../../public/img/recent/02.jpg";
 import { useState } from "react";
 import YoutubeEmbed from "@/components/containers/youtube/YoutubeEmbed";
 import Layout from "@/components/layout/Layout";
+import DevelopmentTeam from "@/components/containers/team/DevelopmentTeam";
+import GedsysSection from "@/components/containers/gedsys/GedsysSection";
 
 
 
@@ -20,7 +22,7 @@ const page = () => {
     <Layout header={2} footer={2}>
 
 
-      <div className="recent__area grey-bg pt-120 pb-90">
+      <div className="recent__area grey-bg pt-120 pb-90 banner-bg-two">
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -78,18 +80,7 @@ const page = () => {
               </div>
             </div>
           </div>
-          <div className="row " data-aos="fade-up" data-aos-delay="300">
-            <div className="col-xl-6 col-lg-6">
-              <div className="recent__thumb mb-30">
-                <Image src={One} alt="image not found" />
-              </div>
-            </div>
-            <div className="col-xl-6 col-lg-6">
-              <div className="recent__thumb mb-30">
-                <Image src={Two} alt="image not found" />
-              </div>
-            </div>
-          </div>
+          
         </div>
         <div
           className={(videoActive ? " video-zoom-in" : " ") + " video-backdrop"}
@@ -112,6 +103,10 @@ const page = () => {
           </div>
         </div>
       </div>
+
+      <GedsysSection />
+
+      <DevelopmentTeam />
 
     </Layout>
   )

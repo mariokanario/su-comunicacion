@@ -1,8 +1,15 @@
+import Document from '@/components/containers/document/Document'
+import DocuManTeam from '@/components/containers/team/DocuManTeam'
+import Layout from '@/components/layout/Layout'
 import React from 'react'
 
 const page = () => {
   return (
-    <div>docuManagement</div>
+    <Layout header={2} footer={2}>
+      <Document />
+      <DocuManTeam />
+    </Layout>
+    
   )
 }
 

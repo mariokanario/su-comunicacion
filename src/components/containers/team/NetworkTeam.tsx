@@ -4,19 +4,16 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import One from "@/../../public/img/team/suport/01.jpg";
-import Two from "@/../../public/img/team/suport/02.jpg";
-import Three from "@/../../public/img/team/suport/03.jpg";
-import Four from "@/../../public/img/team/suport/04.jpg";
-import Five from "@/../../public/img/team/suport/05.jpg";
-import Six from "@/../../public/img/team/suport/06.jpg";
-import Seven from "@/../../public/img/team/suport/07.jpg";
+import One from "@/../../public/img/team/network/01.jpg";
+import Two from "@/../../public/img/team/network/02.jpg";
+import Three from "@/../../public/img/team/network/03.jpg";
+import Four from "@/../../public/img/team/network/04.jpg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from 'swiper/modules';
 import "swiper/css";
 
-const SuportTeam = () => {
+const NetworkTeam = () => {
   return (
     <section className="team__area p-relative z-index-11 pt-120 pb-120 overflow-hidden ab-team">
       <div className="container">
@@ -27,7 +24,7 @@ const SuportTeam = () => {
                 <span>Nuestro</span> equipo
               </span>
               <h2 className="section__title-2">
-                Equipo de Soporte Técnico
+                Equipo de Redes
               </h2>
             </div>
           </div>
@@ -78,9 +75,9 @@ const SuportTeam = () => {
                           <Image src={One} alt="image not found" />
                         </div>
                         <div className="team__content">
-                          <h3 className="text-white">Joan Gutiérrez</h3>
-                          <h4>Director de Soporte Técnico</h4>
-                          <p>Senior - Experto en T.I. con mas de 15 años de experiencia en análisis, evaluación, implementación de requerimientos en redes, IPV4-IPV6, Mikro Tik,  hardware y software institucional.</p>
+                          <h3 className="text-white">Esteven Salgado</h3>
+                          <h4>Líder de Redes, Telefonía y Mantenimiento</h4>
+                          <p>Senior - Experto en con mas de 15 años de experiencia en análisis, evaluación, implementación de requerimientos en redes, cableado estructurado, Fibrra óptica</p>
                         </div>
                       </div>
                     </div>
@@ -93,13 +90,15 @@ const SuportTeam = () => {
                           <Image src={Two} alt="image not found" />
                         </div>
                         <div className="team__content">
-                          <h3 className="text-white">Rodrigo Ossa</h3>
-                          <h4>Coordinador de Soporte Técnico</h4>
-                          <p>Senior - Experto en T.I. con mas de 10 años de experiencia en análisis, evaluación, implementación de requerimientos de redes, IPV4-IPV6, Mikro Tik,  hardware y software institucional.</p>
+                          <h3 className="text-white">Jose Luis Lora Serna</h3>
+                          <h4>Técnico de Redes, Telefonía y Mantenimiento</h4>
+                          <p>Senior - Experto con  mas de 15 años de experiencia en el montaje y mantenimiento de redes y telefonía.</p>
                         </div>
                       </div>
                     </div>
                   </SwiperSlide>
+
+                 
 
                   <SwiperSlide>
                     <div className="swiper-slide">
@@ -108,9 +107,9 @@ const SuportTeam = () => {
                           <Image src={Three} alt="image not found" />
                         </div>
                         <div className="team__content">
-                          <h3 className="text-white">Daniel Durango</h3>
-                          <h4>Técnico de Soporte</h4>
-                          <p>Tecnólogo senior en T.I., con mas de 10 años de experiencia en todos los campos Hardware y Software</p>
+                          <h3 className="text-white">Ever Goez</h3>
+                          <h4>Técnico de Redes, Telefonía y Mantenimiento</h4>
+                          <p>Junior con  mas de 3 años de experiencia en el montaje y mantenimiento de  redes de telefonía y cableado estructurado.</p>
                         </div>
                       </div>
                     </div>
@@ -123,59 +122,13 @@ const SuportTeam = () => {
                           <Image src={Four} alt="image not found" />
                         </div>
                         <div className="team__content">
-                          <h3 className="text-white">Gustavo Suarez</h3>
-                          <h4>Técnico de Soporte en informática</h4>
-                          <p>Tecnólogo semi-senior en T.I., con mas de 4 años de experiencia en todos los campos Hardware y Software</p>
+                          <h3 className="text-white">Yeison Lora</h3>
+                          <h4>Técnico de Redes, Telefonía y Mantenimiento</h4>
+                          <p>Junior con  mas de 3 años de experiencia en el montaje y mantenimiento de redes de telefonía y cableado estructurado.</p>
                         </div>
                       </div>
                     </div>
                   </SwiperSlide>
-
-                  <SwiperSlide>
-                    <div className="swiper-slide">
-                      <div className="team__item">
-                        <div className="team__thumb">
-                          <Image src={Five} alt="image not found" />
-                        </div>
-                        <div className="team__content">
-                          <h3 className="text-white"> Cristian Cataño</h3>
-                          <h4>Técnico de Soporte</h4>
-                          <p>Tecnólogo semi-senior en T.I., con mas de 4 años de experiencia en todos los campos Hardware y Software</p>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-
-                  <SwiperSlide>
-                    <div className="swiper-slide">
-                      <div className="team__item">
-                        <div className="team__thumb">
-                          <Image src={Six} alt="image not found" />
-                        </div>
-                        <div className="team__content">
-                          <h3 className="text-white">John Londoño</h3>
-                          <h4>Coordinador de Soporte Técnico</h4>
-                          <p>Tecnólogo semi-senior en T.I., con mas de 4 años de experiencia en todos los campos Hardware y Software</p>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-
-                  <SwiperSlide>
-                    <div className="swiper-slide">
-                      <div className="team__item">
-                        <div className="team__thumb">
-                          <Image src={Seven} alt="image not found" />
-                        </div>
-                        <div className="team__content">
-                          <h3 className="text-white">Carlos Giraldo</h3>
-                          <h4>Técnico de Soporte </h4>
-                          <p>Tecnólogo Semi senior en T.I., con mas de 4 años de experiencia en todos los campos Hardware y Software</p>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-
 
                 </Swiper>
               </div>
@@ -187,4 +140,4 @@ const SuportTeam = () => {
   );
 };
 
-export default SuportTeam;
+export default NetworkTeam;

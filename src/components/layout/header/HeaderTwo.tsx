@@ -113,7 +113,7 @@ const HeaderTwo = () => {
                             <Link href="/blog">Informático</Link>
                           </li>
                           <li>
-                            <Link href="/blog-details">Software Gedsys</Link>
+                            <a href="https://soporte.gedsys.com.co/scp/login.php" target="_blank">Software Gedsys</a>
                           </li>
                         </ul>
                       </li>
@@ -294,27 +294,27 @@ const HeaderTwo = () => {
                         aria-label="Open Side Menu"
                         onClick={handleToggleMenu}
                       >
-                        <div className="bar-icon">
-                          <span></span>
-                          <span></span>
-                          <span></span>
+                        <div className="bar-icon" >
+                          <span style={scrolled ? {backgroundColor: "black"} : {}} ></span>
+                          <span style={scrolled ? { backgroundColor: "black" } : {}} ></span>
+                          <span style={scrolled ? { backgroundColor: "black" } : {}} ></span>
                         </div>
                         <div className="header__toggle-text ml-10">
-                          <span>MENU</span>
+                          <span style={scrolled ? { color: "black" } : {}} >MENU</span>
                         </div>
                       </button>
                     </div>
                   </div>
-                  <div className="header__toggle d-md-none" style={{backgroundColor: "black"}}>
+                  <div className="header__toggle d-md-none">
                     <button
                       className="sidebar__active"
                       aria-label="Toggle Sidebar"
                       onClick={handleToggleMenu}
                     >
                       <div className="bar-icon">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                        <span style={{backgroundColor: "black"}}></span>
+                        <span style={{backgroundColor: "black"}}></span>
+                        <span style={{backgroundColor: "black"}}></span>
                       </div>
                     </button>
                   </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 const HomeThreeService = () => {
   return (
-    <div className="service__area service__bg z-index-1 pt-120 pb-90 service-bg-two">
+    <div className="service__area service__bg z-index-1 pt-120 pb-90 banner-bg-two">
       <div className="container">
         <div className="row tik">
           <div className="col-12">

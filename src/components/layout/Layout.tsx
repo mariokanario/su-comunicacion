@@ -25,7 +25,7 @@ const Layout = ({ children, header, footer }: layoutProps) => {
       <Head>
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
         <title>Digitek | SEO Service React Template</title>
         <meta name="keywords" content="digitek, seo, service" />
         <meta name="description" content="SEO Service React Template" />
