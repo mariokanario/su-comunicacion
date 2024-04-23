@@ -3,9 +3,9 @@
 import React from "react";
 import Image from "next/image";
 
-import One from "@/../../public/img/team/Outsourcing/01.jpg";
-import Two from "@/../../public/img/team/Outsourcing/02.jpg";
-import Three from "@/../../public/img/team/Outsourcing/03.jpg";
+import One from "@/../../public/img/team/outsourcing/01.jpg";
+import Two from "@/../../public/img/team/outsourcing/02.jpg";
+import Three from "@/../../public/img/team/outsourcing/03.jpg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from 'swiper/modules';
