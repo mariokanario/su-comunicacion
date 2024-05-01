@@ -3,9 +3,8 @@ import React from "react";
 import Image from "next/image";
 import Layout from '@/components/layout/Layout'
 import Arrow from "@/../../public/img/svg/arrow-2.svg";
-import One from "@/../../public/img/about/about-thumb-2.png";
+import One from "@/../../public/img/illustrations/consulting.svg";
 import Two from "@/../../public/img/shape/about-thumb-shape.png";
-import AboutTeam from "@/components/containers/team/AboutTeam";
 import SuportTeam from "@/components/containers/team/SuportTeam";
 
 const page = () => {
@@ -13,7 +12,7 @@ const page = () => {
     <Layout header={2} footer={2}>
       
       <div className="about__area p-relative pt-120 pb-60 banner-bg-two">
-        <div className="container">
+        <div className="container  pt-120">
           <div
             className="row align-items-center "
             data-aos="fade-up"
@@ -22,7 +21,7 @@ const page = () => {
             <div className="col-xl-6 col-lg-6">
               <div className="about__thumb-wrapper-3 mb-60">
                 <div className="about__thumb-3">
-                  <Image src={One} alt="image not found" />
+                  <Image src={One} alt="image not found" className="w-100 p-5" />
                 </div>
                 <div className="about__thumb-shape">
                   <Image src={Two} alt="image not found" />

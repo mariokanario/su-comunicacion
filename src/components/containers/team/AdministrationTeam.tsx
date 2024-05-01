@@ -14,8 +14,8 @@ import "swiper/css";
 
 const AdministrationTeam = () => {
   return (
-    <section className="team__area p-relative z-index-11 pt-120 pb-120 overflow-hidden ab-team ">
-      <div className="container">
+    <section className="team__area p-relative z-index-11 pt-120 pb-120 overflow-hidden banner-bg-two">
+      <div className="container pt-120">
         <div className="row align-items-center">
           <div className="col-xl-6 col-lg-6">
             <div className="section__title-wrapper mb-60">

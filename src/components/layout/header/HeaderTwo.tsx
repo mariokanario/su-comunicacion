@@ -110,104 +110,25 @@ const HeaderTwo = () => {
                         </button>
                         <ul className={`sub-menu ${isSubMenuOpen("blog")}`}>
                           <li>
-                            <Link href="/blog">Informático</Link>
+                            <a href="https://sucomunicacion.com/soporte/" target="_blank">Informático</a>
                           </li>
                           <li>
                             <a href="https://soporte.gedsys.com.co/scp/login.php" target="_blank">Software Gedsys</a>
                           </li>
                         </ul>
                       </li>
-                      <li className="has-dropdown">
-                        <button
-                          className={`${isSubMenuButton("pages")}`}
-                          onClick={() => handleSubmenu("pages")}
-                        >
-                          Talento humano
-                          <span className="mean-expand">
-                            <i className="fal fa-plus"></i>
-                          </span>
-                        </button>
-                        <ul className={`sub-menu ${isSubMenuOpen("pages")}`}>
-                          <li className="has-dropdown">
-                            <Link href="/about">Intranet</Link>
-                          </li>
-                          <li>
-                            <Link href="/service">Correo</Link>
-                          </li>
-                        </ul>
-                      </li> 
-                      
                       <li className="mean-last">
                         <Link href="/contact">Contáctenos</Link>
+                      </li>
+                      
+                      <li className="mean-last">
+                        <a href="https://sucomunicacion.com:2096/" target="_blank">Correo</a>
                       </li>
                     </ul>
                   </nav>
                 </div>
               </div>
-              {/* <div className="offcanvas__contact mt-30 mb-20">
-                <h4>Información de contacto</h4>
-                <ul>
-                  <li className="d-flex align-items-center">
-                    <div className="offcanvas__contact-icon mr-15">
-                      <i className="fal fa-map-marker-alt"></i>
-                    </div>
-                    <div className="offcanvas__contact-text">
-                      <Link
-                        target="_blank"
-                        href="https://maps.app.goo.gl/M45HHhpWmbe2xYJV6"
-                      >
-                        Cra. 66 #42-79, Medellín, Antioquia
-                      </Link>
-                    </div>
-                  </li>
-                  <li className="d-flex align-items-center">
-                    <div className="offcanvas__contact-icon mr-15">
-                      <i className="far fa-phone"></i>
-                    </div>
-                    <div className="offcanvas__contact-text">
-                      <Link href="tel:+573106223709" aria-label="Contact Us">
-                        +57 310 6223709
-                      </Link>
-                    </div>
-                  </li>
-                  <li className="d-flex align-items-center">
-                    <div className="offcanvas__contact-icon mr-15">
-                      <i className="fal fa-envelope"></i>
-                    </div>
-                    <div className="offcanvas__contact-text">
-                      <Link href="tel:+573106223709" aria-label="Contact Us">
-                        <span className="mailto:contactenos@sucomunicacion.com">
-                          contactenos@sucomunicacion.com
-                        </span>
-                      </Link>
-                    </div>
-                  </li>
-                </ul>
-              </div> */}
-              {/* <div className="offcanvas__social">
-                <ul>
-                  <li>
-                    <Link href="/">
-                      <i className="fab fa-facebook-f"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/">
-                      <i className="fab fa-twitter"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/">
-                      <i className="fab fa-youtube"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/">
-                      <i className="fab fa-linkedin"></i>
-                    </Link>
-                  </li>
-                </ul>
-              </div> */}
+              
             </div>
           </div>
         </div>

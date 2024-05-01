@@ -9,7 +9,7 @@ const GedsysVideo = () => {
 
     return (
         <div className="recent__area grey-bg pt-120 pb-90 banner-bg-two">
-            <div className="container">
+            <div className="container pt-120">
                 <div className="row">
                     <div className="col-12">
                         <div className="recent-content-box mb-65">
@@ -60,9 +60,9 @@ const GedsysVideo = () => {
                                 </button>
                             </div>
                             <div className="section__title-wrapper text-center">
-                                <h2 className="section__title-2">GEDSYS®</h2>
+                                <h2 className="section__title-2">GEDSYS </h2>
                             </div>
-                            <p>Es una eficiente solución electrónica diseñada para cumplir con todas las necesidades que surgen en la aplicación de los procesos en la  gestión documental, su desempeño está habilitado para múltiples tipo de empresas,  incluyendo al sector público y privado</p>
+                            <p className="mt-50 w-75 text-center mx-auto">Es una eficiente solución electrónica diseñada para cumplir con todas las necesidades que surgen en la aplicación de los procesos en la  gestión documental, su desempeño está habilitado para múltiples tipo de empresas,  incluyendo al sector público y privado</p>
                         </div>
                     </div>
                 </div>

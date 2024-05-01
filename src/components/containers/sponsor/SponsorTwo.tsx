@@ -25,6 +25,9 @@ const SponsorTwo = () => {
   return (
     <div className="brand__area pt-120 pb-120">
       <div className="container">
+        <div className="brand__title">
+          <span>Cientos de empresas confiaron en nosotros</span>
+        </div>
         <div
           className="row justify-content-center "
           data-aos="fade-up"

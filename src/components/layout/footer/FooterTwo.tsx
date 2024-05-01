@@ -45,10 +45,10 @@ const FooterTwo = () => {
                 <div className="footer__link">
                   <ul>
                     <li>
-                      <Link href="/">Informático</Link>
+                      <a href="https://sucomunicacion.com/soporte/" target="_blank">Informático</a>
                     </li>
                     <li>
-                      <Link href="/">Software Gedsys</Link>
+                      <a href="https://soporte.gedsys.com.co/scp/login.php" target="_blank">Software Gedsys</a>
                     </li>
                   </ul>
                 </div>
@@ -62,10 +62,7 @@ const FooterTwo = () => {
                 <div className="footer__link">
                   <ul>
                     <li>
-                      <Link href="/">Intranet</Link>
-                    </li>
-                    <li>
-                      <Link href="/">Correo</Link>
+                      <a href="https://sucomunicacion.com:2096/" target="_blank" >Correo</a>
                     </li>
                   </ul>
                 </div>

@@ -1,16 +1,16 @@
 import Layout from '@/components/layout/Layout'
 import React from 'react'
 import Image from "next/image";
-import One from "@/../../public/img/illustrations/sec1.svg";
+import One from "@/../../public/img/illustrations/computers.svg";
 
 const page = () => {
   return (
     <Layout header={2} footer={2}>
       <div className="development__area pt-90 pb-60 banner-bg-two">
-        <div className="container">
+        <div className="container  pt-120">
           <div className="row justify-content-center">
             <div className="col-xl-11">
-              <div className="section__title-wrapper text-center mb-70 pt-120">
+              <div className="section__title-wrapper text-center mb-70">
                 <div className="section__title-3">
                   Hardware y Software Especializado
                 </div>
@@ -26,7 +26,7 @@ const page = () => {
           >
             <div className="col-xl-6 col-lg-6">
 
-              <div className="development__thumb w-img mb-60">
+              <div className="development__thumb w-img mb-60 p-5">
                 <Image src={One} alt="image not found" />
               </div>
             </div>

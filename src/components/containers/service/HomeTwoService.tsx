@@ -18,7 +18,7 @@ const HomeTwoService = () => {
             </div>
           </div>
           <div className="row  tik" data-aos="fade-left" data-aos-delay="300">
-            <div className="col-xl-3 col-lg-6 col-md-6">
+            <div className="col-xl-3 col-lg-6 col-md-6 d-flex">
               <div className="service__item mb-30">
                 <div className="service__thumb include__bg service-two-cmn"></div>
                 <div className="service__icon transition-3">
@@ -53,24 +53,24 @@ const HomeTwoService = () => {
                 </div>
                 <div className="service__content">
                   <h3>
-                    <Link href="service">Consultoría y Soporte Técnico</Link>
+                    <Link href="/portfolio/consult">Consultoría y Soporte Técnico</Link>
                   </h3>
                   <p>
-                    Consultoría Especializa y Planes de Mantenimiento 
+                    Consultoría Especializa y Planes de Mantenimiento
                   </p>
                 </div>
                 <div className="service__link">
-                  <Link href="service">
+                  <Link href="/portfolio/consult">
                     <i className="fa-regular fa-arrow-right-long"></i>
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-6 col-md-6">
+            <div className="col-xl-3 col-lg-6 col-md-6 d-flex">
               <div className="service__item mb-30">
                 <div className="service__thumb include__bg service-two-cmn"></div>
                 <div className="service__icon transition-3">
-                  
+
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="75.95"
@@ -102,66 +102,107 @@ const HomeTwoService = () => {
                 </div>
                 <div className="service__content">
                   <h3>
-                    <Link href="service">Software GEDSYS y Gestión Documental</Link>
+                    <Link href="/portfolio/gedsys">Gedsys® Software</Link>
                   </h3>
                   <p>
                     Solución tipo Software y Elaboración de Instrumentos Archivísticos
                   </p>
                 </div>
                 <div className="service__link">
-                  <Link href="service">
+                  <Link href="/portfolio/gedsys">
                     <i className="fa-regular fa-arrow-right-long"></i>
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-6 col-md-6">
+            <div className="col-xl-3 col-lg-6 col-md-6 d-flex">
               <div className="service__item mb-30">
                 <div className="service__thumb include__bg service-two-cmn"></div>
                 <div className="service__icon transition-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="49.925"
-                    height="75"
-                    viewBox="0 0 49.925 75"
-                  >
-                    <g
-                      id="Group_27412"
-                      data-name="Group 27412"
-                      transform="translate(-535 -1727)"
-                    >
-                      <path
-                        id="attract-customers"
-                        d="M44.6,41.049V33.5H32.705v7.545ZM32.223,44.394a.94.94,0,0,1,1.428-.244,1.276,1.276,0,0,1,.214,1.63L32.07,48.545a.946.946,0,0,1-1.434.244,1.288,1.288,0,0,1-.214-1.636l1.8-2.765ZM43.21,45.841a1.3,1.3,0,0,1,0-1.654.94.94,0,0,1,1.453,0l2.216,2.527a1.294,1.294,0,0,1,0,1.66.94.94,0,0,1-1.453,0L43.2,45.841ZM37.43,45.78a1.032,1.032,0,1,1,2.045,0v3.107a1.032,1.032,0,1,1-2.045,0ZM4.761,44.394a.94.94,0,0,1,1.428-.244A1.276,1.276,0,0,1,6.4,45.78L4.6,48.551a.94.94,0,0,1-1.428.244A1.276,1.276,0,0,1,2.96,47.16l1.831-2.765Zm10.987,1.447a1.3,1.3,0,0,1,0-1.654.94.94,0,0,1,1.453,0l2.216,2.527a1.294,1.294,0,0,1,0,1.66.94.94,0,0,1-1.453,0l-2.222-2.533ZM9.968,45.78a1.1,1.1,0,0,1,1.019-1.19,1.1,1.1,0,0,1,1.025,1.19v3.107a1.111,1.111,0,0,1-.989,1.166,1.093,1.093,0,0,1-1.032-1.16V45.786Zm34.61-18.7V18.837A18.764,18.764,0,0,0,39.066,5.53h0a21.116,21.116,0,0,0-28.494,0h0A18.782,18.782,0,0,0,5.017,18.837v8.234H16.908V18.837a6.9,6.9,0,0,1,2.026-4.883h0a9.573,9.573,0,0,1,5.854-2.02,9.411,9.411,0,0,1,5.854,2.02h0a6.916,6.916,0,0,1,2.045,4.883v8.234ZM5.017,33.5v7.6H16.908V33.5Z"
-                        transform="translate(535.243 1727)"
-                        fill="#20457F"
-                      ></path>
-                      <path
-                        id="attract-customers-2"
-                        data-name="attract-customers"
-                        d="M34.384,65.166c-.378-.61-1.087-1.416-1.087-2.118a1.135,1.135,0,0,1,.763-1.032C34.024,61.406,34,60.8,34,60.222V59.166a3.925,3.925,0,0,1,.122-.659,3.766,3.766,0,0,1,1.685-2.136,4.676,4.676,0,0,1,.916-.439c.58-.208.3-1.184.934-1.221a8.466,8.466,0,0,1,4.883,2.35,3.772,3.772,0,0,1,.971,2.442L43.448,62.1a.867.867,0,0,1,.61.537c.2.818-.647,1.831-1.044,2.49s-1.758,2.545-1.758,2.564a.537.537,0,0,0,.122.3c2.167,2.973,8.546,1.1,8.546,7.014H27.468c0-5.915,6.36-4.041,8.546-7.014.11-.153.159-.238.153-.311s-1.6-2.3-1.74-2.527Zm-27.468,0c-.378-.61-1.087-1.416-1.087-2.118a1.135,1.135,0,0,1,.763-1.032c-.037-.61-.061-1.221-.061-1.795V59.166a3.925,3.925,0,0,1,.122-.659,3.766,3.766,0,0,1,1.685-2.136,4.675,4.675,0,0,1,.916-.439c.61-.208.3-1.184.934-1.221a8.484,8.484,0,0,1,4.883,2.35,3.772,3.772,0,0,1,.971,2.442L15.98,62.1a.867.867,0,0,1,.61.537c.2.818-.647,1.831-1.044,2.49s-1.758,2.545-1.758,2.564a.537.537,0,0,0,.122.3c2.167,2.973,8.546,1.1,8.546,7.014H0c0-5.915,6.36-4.041,8.546-7.014.11-.153.159-.238.153-.311s-1.6-2.3-1.74-2.527Z"
-                        transform="translate(535 1727)"
-                        fill="#EA5518"
-                      ></path>
+                  <svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" width="79.67" height="76.23" viewBox="0 0 79.67 76.23">
+                    <g id="_668_business_chart_graph_pie_statistic" data-name="668, business, chart, graph, pie, statistic">
+                      <g>
+                        <path d="M10.98,64.91H43.36c.46,0,.92,.45,.92,.91,0,5.89,4.28,8.45,8.09,8.76h1.98c3.67-.3,8.09-2.72,8.09-8.76v-6.64c-7.79-.45-13.9-6.79-13.9-14.49,0-3.77,1.53-7.4,4.28-10.12,2.6-2.57,5.96-3.92,9.62-4.23V5.42c0-1.81,.76-3.47,1.99-4.68H17.7c-3.82,0-6.87,3.02-6.87,6.79l.15,57.37ZM32.82,6.33h22.91c.46,0,.92,.45,.92,.91s-.46,.91-.92,.91h-22.91c-.46,0-.92-.45-.92-.91s.31-.91,.92-.91Zm9.47,51.03H17.42c-.46,0-.92-.45-.92-.91s.46-.91,.92-.91h25.03c.46,0,.92,.45,.92,.91s-.61,.91-1.07,.91Zm0-5.74H17.42c-.46,0-.92-.45-.92-.91s.46-.91,.92-.91h25.03c.46,0,.92,.45,.92,.91s-.61,.91-1.07,.91Zm0-5.59H17.42c-.46,0-.92-.45-.92-.91s.46-.91,.92-.91h25.03c.46,0,.92,.45,.92,.91s-.61,.91-1.07,.91Zm0-5.74H17.42c-.46,0-.92-.45-.92-.91s.46-.91,.92-.91h25.03c.46,0,.92,.45,.92,.91s-.61,.91-1.07,.91Zm0-5.59H17.42c-.46,0-.92-.45-.92-.91s.46-.91,.92-.91h25.03c.46,0,.92,.45,.92,.91-.15,.45-.61,.91-1.07,.91Zm-9.47-20.83c-.46,0-.92-.45-.92-.91s.46-.91,.92-.91h22.91c.46,0,.92,.45,.92,.91s-.46,.91-.92,.91h-22.91Z" fill="#20457f" />
+                        <path d="M75.28,41.05l-11.61,4.23h-.31c-.31,0-.46-.15-.61-.3-.31-.3-.31-.6-.15-1.06l4.28-11.32c-1.22-.3-2.29-.45-3.51-.45-7.03,0-12.83,5.59-12.83,12.53s5.65,12.68,12.83,12.68,12.68-5.59,12.68-12.68c-.31-1.36-.46-2.57-.76-3.62Z" fill="#ea5518" />
+                        <path d="M64.77,42.85l4.58-12.07,.75,.32c2.96,1.27,5.33,3.57,6.65,6.45l.36,.77-12.34,4.52Zm5.45-9.95l-2.77,7.29,7.48-2.74c-1.08-1.94-2.72-3.52-4.72-4.55Z" fill="#ea5518" />
+                        <path d="M64.28,15.84h9.62V5.42c0-2.57-2.14-4.68-4.73-4.68s-4.73,2.11-4.73,4.68V15.84h-.15Z" fill="#20457f" />
+                        <path d="M42.29,66.72H2.13c.31,4.83,3.51,7.85,8.25,7.85H46.72c-.46-.3-.92-.75-1.37-1.21-1.83-1.66-2.9-3.93-3.06-6.64Z" fill="#20457f" />
+                      </g>
                     </g>
                   </svg>
                 </div>
                 <div className="service__content">
                   <h3>
-                    <Link href="service">Fibra Optica, Redes, Telefonía y Mantenimiento</Link>
+                    <Link href="/portfolio/docuManagement">Gestión Documental y Archivística</Link>
                   </h3>
                   <p>
                     Instalación, Mantenimiento y  Corrección de Redes
                   </p>
                 </div>
                 <div className="service__link">
-                  <Link href="service">
+                  <Link href="/portfolio/docuManagement">
                     <i className="fa-regular fa-arrow-right-long"></i>
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-6 col-md-6">
+            <div className="col-xl-3 col-lg-6 col-md-6 d-flex">
+              <div className="service__item mb-30">
+                <div className="service__thumb include__bg service-two-cmn"></div>
+                <div className="service__icon transition-3">
+                  <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" width="75.85" height="74.98" viewBox="0 0 75.85 74.98">
+                    <g id="Capa_1-2" data-name="Capa 1">
+                      <g>
+                        <g>
+                          <path d="M.74,37.49c0,.88-.29,1.75-.74,2.48l7.53,7.44V27.57L0,35.01c.59,.73,.74,1.6,.74,2.48Z" fill="#20457f" />
+                          <path d="M12.99,9.19c-.29,1.75-1.77,3.21-3.54,3.5v10.36l14.17-14-10.63,.15h0Z" fill="#20457f" />
+                          <path d="M35.42,74.98c.74-.44,1.62-.73,2.51-.73s1.77,.29,2.51,.73l7.52-7.44H27.89l7.53,7.44Z" fill="#20457f" />
+                          <path d="M40.44,0c-.74,.58-1.62,.88-2.51,.88s-1.77-.29-2.51-.73l-7.53,7.44h20.07L40.44,0Z" fill="#20457f" />
+                          <path d="M66.55,51.79l-14.17,14h10.48c.29-1.75,1.77-3.21,3.54-3.5v-10.5h.15Z" fill="#20457f" />
+                          <path d="M9.3,62.29c1.77,.29,3.25,1.75,3.54,3.5h10.48l-14.17-14v10.5h.15Z" fill="#20457f" />
+                          <path d="M68.33,27.57v19.84l7.52-7.44c-.44-.73-.74-1.6-.74-2.48s.3-1.75,.74-2.48l-7.52-7.44Z" fill="#20457f" />
+                          <path d="M66.55,25.82L49.73,9.19H26.12L9.3,25.82v23.49l16.82,16.48h23.61l16.68-16.48V25.82h.15Zm-13.43,25.82q-.15,0,0,0l-.15,.15c-3.84,3.94-9.15,6.27-14.9,6.27-11.51,0-20.81-9.19-20.81-20.57,0-5.4,2.21-10.36,5.61-14.15,0,0,0-.15,.15-.15h0c3.69-3.79,9-6.27,14.91-6.27s11.21,2.48,14.9,6.27h0l.15,.15c3.54,3.65,5.61,8.61,5.61,14.15,.15,5.54-2.07,10.36-5.46,14.15Z" fill="#20457f" />
+                          <path d="M66.55,12.84c-1.77-.29-3.25-1.75-3.54-3.5h-10.48l14.17,14V12.84h-.15Z" fill="#20457f" />
+                        </g>
+                        <g>
+                          <path d="M26.56,38.37h-7.67c.15,4.38,1.92,8.31,4.57,11.38,1.33-1.17,2.66-2.19,4.13-3.06-.59-2.48-.89-5.4-1.03-8.31Z" fill="#ea5518" />
+                          <path d="M28.33,48.43c-1.18,.73-2.36,1.6-3.39,2.63,2.07,1.9,4.57,3.5,7.38,4.38-.88-1.02-1.77-2.19-2.51-3.5-.59-1.17-1.03-2.19-1.48-3.5Z" fill="#ea5518" />
+                          <path d="M29.81,23.2c.74-1.46,1.62-2.63,2.51-3.5-2.8,.88-5.31,2.33-7.38,4.38,1.03,1.02,2.21,1.9,3.39,2.63,.44-1.31,.89-2.48,1.48-3.5Z" fill="#ea5518" />
+                          <path d="M27.74,28.3c-1.48-.87-2.95-1.9-4.13-3.06-2.66,3.06-4.43,7-4.57,11.38h7.67c0-2.92,.29-5.69,1.03-8.32Z" fill="#ea5518" />
+                          <path d="M28.48,36.62h8.56v-5.69c-2.66-.15-5.16-.73-7.53-1.75-.59,2.33-1.03,4.81-1.03,7.44Z" fill="#ea5518" />
+                          <path d="M31.43,24.07c-.59,1.02-1.03,2.19-1.48,3.36,2.21,1.02,4.57,1.6,7.08,1.75v-10.21c-2.07,.29-4.13,2.19-5.61,5.11Z" fill="#ea5518" />
+                          <path d="M31.43,51.06c1.62,2.92,3.54,4.81,5.61,5.11v-10.21c-2.51,.15-4.87,.73-7.08,1.75,.44,1.17,.88,2.19,1.48,3.35Z" fill="#ea5518" />
+                          <path d="M29.51,45.81c2.36-1.02,4.87-1.6,7.53-1.75v-5.69h-8.56c0,2.63,.44,5.25,1.03,7.44Z" fill="#ea5518" />
+                          <path d="M46.04,51.79c-.74,1.46-1.62,2.63-2.51,3.5,2.8-.87,5.31-2.33,7.38-4.38-1.03-1.02-2.21-1.9-3.39-2.63-.44,1.46-.89,2.48-1.48,3.5Z" fill="#ea5518" />
+                          <path d="M45.89,47.7c-2.21-1.02-4.57-1.6-7.08-1.75v10.21c2.07-.44,3.98-2.19,5.61-5.11,.59-1.17,1.03-2.19,1.48-3.35Z" fill="#ea5518" />
+                          <path d="M48.11,46.68c1.48,.88,2.95,1.9,4.13,3.06,2.66-3.06,4.43-7,4.58-11.38h-7.67c0,2.92-.29,5.84-1.03,8.31Z" fill="#ea5518" />
+                          <path d="M44.42,24.07c-1.62-2.92-3.54-4.81-5.61-5.11v10.21c2.51-.15,4.87-.73,7.08-1.75-.44-1.17-.88-2.33-1.48-3.36Z" fill="#ea5518" />
+                          <path d="M48.11,28.3c.74,2.48,1.03,5.4,1.18,8.32h7.67c-.15-4.38-1.92-8.32-4.57-11.38-1.33,1.17-2.8,2.33-4.28,3.06Z" fill="#ea5518" />
+                          <path d="M47.52,26.55c1.18-.73,2.36-1.6,3.39-2.63-2.07-1.9-4.57-3.5-7.38-4.38,.88,1.02,1.77,2.19,2.51,3.5,.59,1.17,1.03,2.33,1.48,3.5Z" fill="#ea5518" />
+                          <path d="M46.34,29.18c-2.36,1.02-4.87,1.6-7.53,1.75v5.69h8.56c0-2.63-.44-5.11-1.03-7.44Z" fill="#ea5518" />
+                          <path d="M47.37,38.37h-8.56v5.69c2.66,.15,5.17,.73,7.53,1.75,.59-2.19,1.03-4.81,1.03-7.44Z" fill="#ea5518" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+                <div className="service__content">
+                  <h3>
+                    <Link href="/portfolio/networks">Redes, Telefonía, Fibra Optica</Link>
+                  </h3>
+                  <p>
+                    Comercializamos suministros informáticos de la mejor calidad
+                  </p>
+                </div>
+                <div className="service__link">
+                  <Link href="/portfolio/networks">
+                    <i className="fa-regular fa-arrow-right-long"></i>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-xl-3 col-lg-6 col-md-6 d-flex">
               <div className="service__item mb-30">
                 <div className="service__thumb include__bg service-two-cmn"></div>
                 <div className="service__icon transition-3">
@@ -194,21 +235,140 @@ const HomeTwoService = () => {
                 </div>
                 <div className="service__content">
                   <h3>
-                    <Link href="service">Hardware y Software Especializado</Link>
+                    <Link href="/portfolio/administration">Administración</Link>
                   </h3>
                   <p>
                     Comercializamos suministros informáticos de la mejor calidad
                   </p>
                 </div>
                 <div className="service__link">
-                  <Link href="service">
+                  <Link href="/portfolio/administration">
                     <i className="fa-regular fa-arrow-right-long"></i>
                   </Link>
                 </div>
               </div>
             </div>
-            
-            
+
+            <div className="col-xl-3 col-lg-6 col-md-6 d-flex">
+              <div className="service__item mb-30">
+                <div className="service__thumb include__bg service-two-cmn"></div>
+                <div className="service__icon transition-3">
+                  <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" width="66.95" height="72.6" viewBox="0 0 66.95 72.6">
+                    <g id="Capa_1-2" data-name="Capa 1">
+                      <g>
+                        <g>
+                          <path d="M49.1,37.64H17.85V0h24.23l7.01,6.93v30.71Zm-28.24-3h25.24V8.19l-5.24-5.19H20.85v31.64Z" fill="#ea5518" />
+                          <rect x="34.37" y="23.3" width="3.71" height="9.25" fill="#ea5518" />
+                          <rect x="23.23" y="21.54" width="3.71" height="11.01" fill="#ea5518" />
+                          <polygon points="28.87 20.65 28.87 32.55 32.58 32.55 32.58 22.42 32.58 17.86 28.87 17.86 28.87 20.65" fill="#ea5518" />
+                          <polygon points="40.01 22.42 40.01 32.55 43.73 32.55 43.73 14.19 40.01 14.19 40.01 22.42" fill="#ea5518" />
+                        </g>
+                        <g>
+                          <path d="M48.91,67.69H17.91c-1.31,0-2.48,1.03-2.48,2.46s1.05,2.46,2.48,2.46h30.86c1.31,0,2.48-1.03,2.48-2.46s-1.05-2.46-2.35-2.46Z" fill="#20457f" />
+                          <path d="M66.95,55.92V16.37c0-2.07-1.7-3.62-3.66-3.62h-11.25v3.23h10.86c.39,0,.78,.39,.78,.78V50.75c0,.39-.39,.78-.78,.78H4.05c-.39,0-.78-.39-.78-.78V16.75c0-.39,.39-.78,.78-.78H14.91v-3.23H3.66c-2.09,0-3.66,1.68-3.66,3.62V55.92c0,2.07,1.7,3.62,3.66,3.62H63.42c1.83,0,3.53-1.55,3.53-3.62Zm-15.56,1.29c-.92,0-1.7-.78-1.7-1.68s.78-1.68,1.7-1.68,1.7,.77,1.7,1.68-.78,1.68-1.7,1.68Zm4.97,0c-.92,0-1.7-.78-1.7-1.68s.78-1.68,1.7-1.68,1.7,.77,1.7,1.68c-.13,.91-.78,1.68-1.7,1.68Zm4.84,0c-.92,0-1.7-.78-1.7-1.68s.78-1.68,1.7-1.68,1.7,.77,1.7,1.68-.78,1.68-1.7,1.68Z" fill="#20457f" />
+                          <rect x="25.46" y="61.2" width="17.61" height="4.6" fill="#20457f" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+                <div className="service__content">
+                  <h3>
+                    <Link href="/portfolio/hardware">Hardware Especializado</Link>
+                  </h3>
+                  <p>
+                    Comercializamos suministros informáticos de la mejor calidad
+                  </p>
+                </div>
+                <div className="service__link">
+                  <Link href="/portfolio/hardware">
+                    <i className="fa-regular fa-arrow-right-long"></i>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-xl-3 col-lg-6 col-md-6 d-flex">
+              <div className="service__item mb-30">
+                <div className="service__thumb include__bg service-two-cmn"></div>
+                <div className="service__icon transition-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="49.925"
+                    height="75"
+                    viewBox="0 0 49.925 75"
+                  >
+                    <g
+                      id="Group_27412"
+                      data-name="Group 27412"
+                      transform="translate(-535 -1727)"
+                    >
+                      <path
+                        id="attract-customers"
+                        d="M44.6,41.049V33.5H32.705v7.545ZM32.223,44.394a.94.94,0,0,1,1.428-.244,1.276,1.276,0,0,1,.214,1.63L32.07,48.545a.946.946,0,0,1-1.434.244,1.288,1.288,0,0,1-.214-1.636l1.8-2.765ZM43.21,45.841a1.3,1.3,0,0,1,0-1.654.94.94,0,0,1,1.453,0l2.216,2.527a1.294,1.294,0,0,1,0,1.66.94.94,0,0,1-1.453,0L43.2,45.841ZM37.43,45.78a1.032,1.032,0,1,1,2.045,0v3.107a1.032,1.032,0,1,1-2.045,0ZM4.761,44.394a.94.94,0,0,1,1.428-.244A1.276,1.276,0,0,1,6.4,45.78L4.6,48.551a.94.94,0,0,1-1.428.244A1.276,1.276,0,0,1,2.96,47.16l1.831-2.765Zm10.987,1.447a1.3,1.3,0,0,1,0-1.654.94.94,0,0,1,1.453,0l2.216,2.527a1.294,1.294,0,0,1,0,1.66.94.94,0,0,1-1.453,0l-2.222-2.533ZM9.968,45.78a1.1,1.1,0,0,1,1.019-1.19,1.1,1.1,0,0,1,1.025,1.19v3.107a1.111,1.111,0,0,1-.989,1.166,1.093,1.093,0,0,1-1.032-1.16V45.786Zm34.61-18.7V18.837A18.764,18.764,0,0,0,39.066,5.53h0a21.116,21.116,0,0,0-28.494,0h0A18.782,18.782,0,0,0,5.017,18.837v8.234H16.908V18.837a6.9,6.9,0,0,1,2.026-4.883h0a9.573,9.573,0,0,1,5.854-2.02,9.411,9.411,0,0,1,5.854,2.02h0a6.916,6.916,0,0,1,2.045,4.883v8.234ZM5.017,33.5v7.6H16.908V33.5Z"
+                        transform="translate(535.243 1727)"
+                        fill="#20457F"
+                      ></path>
+                      <path
+                        id="attract-customers-2"
+                        data-name="attract-customers"
+                        d="M34.384,65.166c-.378-.61-1.087-1.416-1.087-2.118a1.135,1.135,0,0,1,.763-1.032C34.024,61.406,34,60.8,34,60.222V59.166a3.925,3.925,0,0,1,.122-.659,3.766,3.766,0,0,1,1.685-2.136,4.676,4.676,0,0,1,.916-.439c.58-.208.3-1.184.934-1.221a8.466,8.466,0,0,1,4.883,2.35,3.772,3.772,0,0,1,.971,2.442L43.448,62.1a.867.867,0,0,1,.61.537c.2.818-.647,1.831-1.044,2.49s-1.758,2.545-1.758,2.564a.537.537,0,0,0,.122.3c2.167,2.973,8.546,1.1,8.546,7.014H27.468c0-5.915,6.36-4.041,8.546-7.014.11-.153.159-.238.153-.311s-1.6-2.3-1.74-2.527Zm-27.468,0c-.378-.61-1.087-1.416-1.087-2.118a1.135,1.135,0,0,1,.763-1.032c-.037-.61-.061-1.221-.061-1.795V59.166a3.925,3.925,0,0,1,.122-.659,3.766,3.766,0,0,1,1.685-2.136,4.675,4.675,0,0,1,.916-.439c.61-.208.3-1.184.934-1.221a8.484,8.484,0,0,1,4.883,2.35,3.772,3.772,0,0,1,.971,2.442L15.98,62.1a.867.867,0,0,1,.61.537c.2.818-.647,1.831-1.044,2.49s-1.758,2.545-1.758,2.564a.537.537,0,0,0,.122.3c2.167,2.973,8.546,1.1,8.546,7.014H0c0-5.915,6.36-4.041,8.546-7.014.11-.153.159-.238.153-.311s-1.6-2.3-1.74-2.527Z"
+                        transform="translate(535 1727)"
+                        fill="#EA5518"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <div className="service__content">
+                  <h3>
+                    <Link href="/portfolio/outsourcing">Outsourcing y Trabajo en Misión</Link>
+                  </h3>
+                  <p>
+                    Comercializamos suministros informáticos de la mejor calidad
+                  </p>
+                </div>
+                <div className="service__link">
+                  <Link href="/portfolio/outsourcing">
+                    <i className="fa-regular fa-arrow-right-long"></i>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-xl-3 col-lg-6 col-md-6 d-flex">
+              <div className="service__item mb-30">
+                <div className="service__thumb include__bg service-two-cmn"></div>
+                <div className="service__icon transition-3">
+
+                  <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" width="61.39" height="74.61" viewBox="0 0 61.39 74.61">
+                    <g id="Capa_1-2" data-name="Capa 1">
+                      <g id="_660_Analysis_business_chart_failure_graph" data-name="660, Analysis, business, chart, failure, graph">
+                        <g>
+                          <path d="M45.38,32.61c-.28-1.27-.85-2.53-1.56-3.66-.14-.28-.14-.7,0-.98l2.28-3.66-1.28-1.26-3.7,2.25c-.29,.14-.71,.14-1,0-1.14-.7-2.42-1.27-3.7-1.55-.28-.14-.57-.28-.71-.7l-1-4.22h-1.85l-1,4.22c-.14,.28-.28,.56-.71,.7-1.28,.28-2.56,.84-3.7,1.55-.28,.14-.71,.14-1,0l-3.7-2.25-1.28,1.26,2.28,3.66c.14,.28,.14,.7,0,.98-.71,1.13-1.28,2.39-1.56,3.66-.14,.28-.28,.56-.71,.7l-4.27,.98v1.83l4.27,.98c.28,.14,.57,.28,.71,.7,.28,1.26,.85,2.53,1.56,3.66,.14,.28,.14,.7,0,.98l-2.28,3.66,1.28,1.27,3.7-2.25c.28-.14,.71-.14,1,0,1.14,.7,2.42,1.27,3.7,1.55,.28,.14,.57,.28,.71,.7l1,4.22h1.85l1-4.22c.14-.28,.28-.56,.71-.7,1.28-.28,2.56-.84,3.7-1.55,.28-.14,.71-.14,1,0l3.7,2.25,1.28-1.27-2.28-3.66c-.14-.28-.14-.7,0-.98,.71-1.12,1.28-2.39,1.56-3.66,.14-.28,.28-.56,.71-.7l4.27-.98v-1.83l-4.27-.98c-.43-.14-.71-.42-.71-.7Zm-11.52,6.75c-2.28,0-4.27-1.83-4.27-4.08s1.85-4.22,4.27-4.22c2.28,0,4.13,1.83,4.13,4.22,.14,2.11-1.71,4.08-4.13,4.08Z" fill="#ea5518" />
+                          <path d="M61.39,66.54H8.04V0H50.72V10.47s.06,.07,.09,.08h10.58s0,56,0,56Zm-51.77-1.57H59.81V12.12h-9.03c-.86,0-1.64-.78-1.64-1.63V1.57H9.61v63.4Z" fill="#20457f" />
+                          <path d="M33.86,32.75c-1.28,0-2.42,1.12-2.42,2.39s1.14,2.39,2.42,2.39,2.42-1.12,2.42-2.39-1-2.39-2.42-2.39Z" fill="#ea5518" />
+                          <polygon points="52.92 .05 52.92 8.44 60.6 8.44 52.92 .05" fill="#20457f" />
+                          <path d="M5.41,68.42V11.33H0v63.28H49.79v-5.34H6.4c-.57,.14-1-.28-1-.84Z" fill="#20457f" />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+                <div className="service__content">
+                  <h3>
+                    Impresión y Consumibles
+                  </h3>
+                  <p>
+                    Comercializamos suministros informáticos de la mejor calidad
+                  </p>
+                </div>
+                <div className="service__link">
+                  <i className="fa-regular fa-arrow-right-long"></i>
+                </div>
+              </div>
+            </div>
+
+
           </div>
         </div>
       </div>

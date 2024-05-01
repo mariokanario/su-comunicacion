@@ -1,7 +1,7 @@
 import Layout from '@/components/layout/Layout'
 import React from 'react'
 import Image from "next/image";
-import One from "@/../../public/img/illustrations/sec1.svg";
+import One from "@/../../public/img/illustrations/outsourcing.svg";
 import OutsourcingTeam from '@/components/containers/team/OutsourcingTeam';
 
 const page = () => {

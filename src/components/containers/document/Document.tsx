@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import One from "@/../../public/img/development/development.png";
+import One from "@/../../public/img/illustrations/docuManagement.svg";
 import Arrow from "@/../../public/img/svg/arrow-2.svg";
 
 
