@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 import Layout from '@/components/layout/Layout'
-import One from "@/../../public/img/illustrations/sec1.svg";
+import One from "@/../../public/img/illustrations/ilustracion2.gif";
 import NetworkTeam from '@/components/containers/team/NetworkTeam';
 
 const page = () => {

@@ -5,7 +5,7 @@ import One from "@/../../public/img/shape/about-shape-1.png";
 import Two from "@/../../public/img/shape/about-shape-2.png";
 import Three from "@/../../public/img/shape/rectangle-3.png";
 import Four from "@/../../public/img/shape/rectangle-4.png";
-import Five from "@/../../public/img/illustrations/sec1.svg";
+import Five from "@/../../public/img/illustrations/ilustracion2.gif";
 
 const AboutTwo = () => {
   return (

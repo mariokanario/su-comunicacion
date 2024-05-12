@@ -23,8 +23,16 @@
     border: 0;
     padding: 20px 20px;
     border-radius: 10px;
-    color: #bababa;
+    color: black;
     outline: none;
+}
+
+.touch__input input {
+    color: black;
+}
+
+.touch__input textarea::placeholder, .touch__input input::placeholder {
+    color: #bababa;
 }
 
 
@@ -37,4 +45,8 @@
     z-index: -1;
     width: 100%;
     top: 0;
+}
+
+.succes-alert {
+    background-color: #3887FE !important;
 }

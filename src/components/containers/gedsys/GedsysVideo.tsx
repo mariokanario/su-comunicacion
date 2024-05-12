@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import YoutubeEmbed from "@/components/containers/youtube/YoutubeEmbed";
+import One from "@/../../public/img/gedsys/logoCsinF.png";
+import Image from "next/image";
 
 const GedsysVideo = () => {
 
@@ -60,7 +62,8 @@ const GedsysVideo = () => {
                                 </button>
                             </div>
                             <div className="section__title-wrapper text-center">
-                                <h2 className="section__title-2">GEDSYS </h2>
+                                <Image src={One} alt="image not found" style={{width: "350px"}} />
+                                {/* <h2 className="section__title-2">GEDSYS </h2> */}
                             </div>
                             <p className="mt-50 w-75 text-center mx-auto">Es una eficiente solución electrónica diseñada para cumplir con todas las necesidades que surgen en la aplicación de los procesos en la  gestión documental, su desempeño está habilitado para múltiples tipo de empresas,  incluyendo al sector público y privado</p>
                         </div>

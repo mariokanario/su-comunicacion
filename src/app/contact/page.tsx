@@ -1,8 +1,12 @@
+import Contact from '@/components/containers/contact/Contact'
 import Layout from '@/components/layout/Layout'
-import Link from 'next/link'
 import React from 'react'
 
+
 const page = () => {
+
+    
+
     return (
         <Layout header={2} footer={2}>
             <div className='pt-120 banner-bg-two'>
@@ -52,41 +56,9 @@ const page = () => {
                                     <div className="touch__content-title">
                                         <h3>Escríbenos</h3>
                                     </div>
-                                    <form action="#">
-                                        <div className="row">
-                                            <div className="col-lg-12">
-                                                <div className="touch__input">
-                                                    <input type="text" placeholder="Nombre" />
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6">
-                                                <div className="touch__input">
-                                                    <input type="text" placeholder="Teléfono" />
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6">
-                                                <div className="touch__input">
-                                                    <input type="email" placeholder="Email" />
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-12">
-                                                <div className="touch__input">
-                                                    <textarea placeholder='Comentario'></textarea>
-                                                </div>
-                                            </div>
-                                            <div className="col-12">
-                                                <div className="touch__submit">
+                                    
+                                    <Contact />
 
-                                                    <div className="touch__btn">
-                                                        <button type="button"></button>
-                                                        <button className="border__btn" type="submit">
-                                                            Enviar
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
                                 </div>
                             </div>
                         </div>
