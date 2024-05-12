@@ -23,7 +23,7 @@ const BannerTwo = () => {
       <div className="container">
         <div className="hero__main-wrapper">
           <div className="row align-items-center">
-            <div className="col-xl-6 col-lg-6 col-md-6">
+            <div className="col-xl-6 col-lg-6 col-md-6 mt-100 mt-md-1">
               <div className="hero__content-wrapper">
                 <div className="hero__content mb-60">
                   <span className="" data-aos="fade-up" data-aos-delay="200">

@@ -19,33 +19,26 @@ const WorkOne = () => {
             </div>
           </div>
         </div>
-        <div className="row " data-aos="fade-up" data-aos-delay="300">
-          <div className="work__item-grid">
-            
-            <div className="work__item mb-60">
-              <div className="work__flow-shape"></div>
-              <div className="work__content">
-                <h3>
-                  Misión
-                </h3>
-                <p>
-                  Proveer componentes tangibles e intangibles con servicios informáticos para el mejoramiento y actualización de la infraestructura tecnológica,  sistemas, telecomunicaciones y gestión documental electrónica, por medio de asesoría profesional personalizada o virtual, nuestro objetivo primordial es generar sinergia entre las distintas áreas internas de nuestros clientes y permitir así que se concentren en el Core específico de su negocio.
-                </p>
-              </div>
-            </div>
+        <div className="row mb-60" data-aos="fade-up" data-aos-delay="100">
 
-            <div className="work__item mb-60">
-              <div className="work__flow-shape"></div>
-              <div className="work__content">
-                <h3>
-                  Visión
-                </h3>
-                <p>
-                  Suministros y Sucomunicación S.A.S, será para el año 2024 una empresa reconocida a nivel nacional, en la producción, edición y distribución de software de gestión documental electrónica, y prestación de servicios en plataformas  de informática, redes y telecomunicaciones.
-                </p>
-              </div>
-            </div>
-            
+          <div className="col-12 col-md-6 text-center">
+
+            <h3>
+              Misión
+            </h3>
+            <p>
+              Proveer componentes tangibles e intangibles con servicios informáticos para el mejoramiento y actualización de la infraestructura tecnológica,  sistemas, telecomunicaciones y gestión documental electrónica, por medio de asesoría profesional personalizada o virtual, nuestro objetivo primordial es generar sinergia entre las distintas áreas internas de nuestros clientes y permitir así que se concentren en el Core específico de su negocio.
+            </p>
+          </div>
+          <div className="col-12 col-md-6  text-center">
+
+            <h3>
+              Visión
+            </h3>
+            <p>
+              Suministros y Sucomunicación S.A.S, será para el año 2024 una empresa reconocida a nivel nacional, en la producción, edición y distribución de software de gestión documental electrónica, y prestación de servicios en plataformas  de informática, redes y telecomunicaciones.
+            </p>
+
           </div>
         </div>
       </div>

@@ -25,7 +25,7 @@ const page = () => {
           <div
             className="row align-items-center "
             data-aos="fade-up"
-            data-aos-delay="300"
+            data-aos-delay="100"
           >
             <div className="col-xl-6 col-lg-6">
               

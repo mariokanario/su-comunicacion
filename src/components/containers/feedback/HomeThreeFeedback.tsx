@@ -14,7 +14,7 @@ const HomeThreeFeedback = () => {
         <Image src={One} alt="image not found" />
       </div>
       <div className="container">
-        <div className="row " data-aos="fade-up" data-aos-delay="300">
+        <div className="row " data-aos="fade-up" data-aos-delay="100">
           <div className="col-xl-12 col-lg-12">
             <div className="feedback__content-wrapper mb-60">
               <div className="section__title-wrapper">

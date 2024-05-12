@@ -39,7 +39,7 @@ const NetworkTeam = () => {
             </div>
           </div>
         </div>
-        <div className="row " data-aos="fade-up" data-aos-delay="300">
+        <div className="row " data-aos="fade-up" data-aos-delay="100">
           <div className="col-12">
             <div className="swiper">
               <div className="swiper-wrapper">

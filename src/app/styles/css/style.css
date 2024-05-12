@@ -50,3 +50,9 @@
 .succes-alert {
     background-color: #3887FE !important;
 }
+
+@media (max-width: 1000px) {
+    .feedbacK__content-wrapper{
+        margin-top: -20px!important;
+    }
+}

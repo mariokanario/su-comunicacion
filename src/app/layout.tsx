@@ -4,8 +4,11 @@ import 'bootstrap/dist/css/bootstrap.css'
 import "./styles/index-four.scss";
 import "./styles/main.scss";
 import "./styles/css/fontawesome-pro.css";
+import 'animate.css';
+import 'aos/dist/aos.css';
 import "./styles/css/style.css";
 import BootstrapClient from '@/components/BootstrapClient';
+import AosClient from '@/components/AosClient';
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -25,6 +28,7 @@ export default function RootLayout({
       <body className={inter.className}>
         {children}
         <BootstrapClient/>
+        <AosClient />
         </body>
     </html>
   );

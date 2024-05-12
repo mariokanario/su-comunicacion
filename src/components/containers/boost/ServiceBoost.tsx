@@ -8,7 +8,7 @@ const ServiceBoost = () => {
   return (
     <div className="boost__area pt-120">
       <div className="container">
-        <div className="row  " data-aos="fade-up" data-aos-delay="300">
+        <div className="row  " data-aos="fade-up" data-aos-delay="100">
           <div className="col-xl-6 col-lg-6">
             <div className="boost__content-wrapper mb-60">
               <div className="section__title-wrapper mb-40">

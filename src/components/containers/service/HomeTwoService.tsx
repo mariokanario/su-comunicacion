@@ -17,9 +17,9 @@ const HomeTwoService = () => {
               </h2>
             </div>
           </div>
-          <div className="row  tik" data-aos="fade-left" data-aos-delay="300">
+          <div className="row  tik" data-aos="fade-left" data-aos-delay="100">
             <div className="col-xl-3 col-lg-6 col-md-6 d-flex">
-              <div className="service__item mb-30">
+              <div className="service__item mb-30 w-100">
                 <div className="service__thumb include__bg service-two-cmn"></div>
                 <div className="service__icon transition-3">
                   <svg
@@ -67,7 +67,7 @@ const HomeTwoService = () => {
               </div>
             </div>
             <div className="col-xl-3 col-lg-6 col-md-6 d-flex">
-              <div className="service__item mb-30">
+              <div className="service__item mb-30  w-100">
                 <div className="service__thumb include__bg service-two-cmn"></div>
                 <div className="service__icon transition-3">
 
@@ -116,7 +116,7 @@ const HomeTwoService = () => {
               </div>
             </div>
             <div className="col-xl-3 col-lg-6 col-md-6 d-flex">
-              <div className="service__item mb-30">
+              <div className="service__item mb-30  w-100">
                 <div className="service__thumb include__bg service-two-cmn"></div>
                 <div className="service__icon transition-3">
                   <svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" width="79.67" height="76.23" viewBox="0 0 79.67 76.23">
@@ -147,7 +147,7 @@ const HomeTwoService = () => {
               </div>
             </div>
             <div className="col-xl-3 col-lg-6 col-md-6 d-flex">
-              <div className="service__item mb-30">
+              <div className="service__item mb-30  w-100">
                 <div className="service__thumb include__bg service-two-cmn"></div>
                 <div className="service__icon transition-3">
                   <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" width="75.85" height="74.98" viewBox="0 0 75.85 74.98">
@@ -203,7 +203,7 @@ const HomeTwoService = () => {
             </div>
 
             <div className="col-xl-3 col-lg-6 col-md-6 d-flex">
-              <div className="service__item mb-30">
+              <div className="service__item mb-30  w-100">
                 <div className="service__thumb include__bg service-two-cmn"></div>
                 <div className="service__icon transition-3">
                   <svg
@@ -250,7 +250,7 @@ const HomeTwoService = () => {
             </div>
 
             <div className="col-xl-3 col-lg-6 col-md-6 d-flex">
-              <div className="service__item mb-30">
+              <div className="service__item mb-30  w-100">
                 <div className="service__thumb include__bg service-two-cmn"></div>
                 <div className="service__icon transition-3">
                   <svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" width="66.95" height="72.6" viewBox="0 0 66.95 72.6">
@@ -289,7 +289,7 @@ const HomeTwoService = () => {
             </div>
 
             <div className="col-xl-3 col-lg-6 col-md-6 d-flex">
-              <div className="service__item mb-30">
+              <div className="service__item mb-30  w-100">
                 <div className="service__thumb include__bg service-two-cmn"></div>
                 <div className="service__icon transition-3">
                   <svg
@@ -336,7 +336,7 @@ const HomeTwoService = () => {
             </div>
 
             <div className="col-xl-3 col-lg-6 col-md-6 d-flex">
-              <div className="service__item mb-30">
+              <div className="service__item mb-30  w-100">
                 <div className="service__thumb include__bg service-two-cmn"></div>
                 <div className="service__icon transition-3">
 

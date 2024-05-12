@@ -10,14 +10,22 @@ import SuportTeam from "@/components/containers/team/SuportTeam";
 const page = () => {
   return (
     <Layout header={2} footer={2}>
-      
+
       <div className="about__area p-relative pt-120 pb-60 banner-bg-two">
         <div className="container  pt-120">
           <div
             className="row align-items-center "
             data-aos="fade-up"
-            data-aos-delay="300"
+            data-aos-delay="100"
           >
+            <div className="col-12">
+              <div className="section__title-wrapper mb-40">
+                <div className="section__title-3 text-center">
+                  Consultoría y Soporte Técnico
+                </div>
+              </div>
+            </div>
+            
             <div className="col-xl-6 col-lg-6">
               <div className="about__thumb-wrapper-3 mb-60">
                 <div className="about__thumb-3">
@@ -30,11 +38,7 @@ const page = () => {
             </div>
             <div className="col-xl-6 col-lg-6">
               <div className="about__content-wapper mb-60">
-                <div className="section__title-wrapper mb-40">
-                  <div className="section__title-3">
-                    Consultoría y Soporte Técnico
-                  </div>
-                </div>
+
                 <p>
                   Realizamos todas las actividades que se contemplan en  la administración tangible e intangible de recursos informáticos, para  estaciones de trabajo, servidores, periféricos, cuartos técnicos.
                 </p>
@@ -95,7 +99,7 @@ const page = () => {
                   </div>
 
                 </div>
-                
+
               </div>
             </div>
           </div>

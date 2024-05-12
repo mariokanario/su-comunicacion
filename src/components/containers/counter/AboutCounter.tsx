@@ -10,7 +10,7 @@ const AboutCounter = () => {
     <section className="fact__area pt-120 pb-90 bg-white">
       <div className="container">
         
-        <div className="row " data-aos="fade-up" data-aos-delay="300">
+        <div className="row " data-aos="fade-up" data-aos-delay="100">
 
           <div className="col-xl-12 col-lg-12">
             <div className="feedback__content-wrapper mb-60">

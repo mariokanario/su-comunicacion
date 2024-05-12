@@ -31,7 +31,7 @@ const SponsorTwo = () => {
         <div
           className="row justify-content-center "
           data-aos="fade-up"
-          data-aos-delay="300"
+          data-aos-delay="100"
         >
           <div className="col-12">
             <div className="swiper brand__active">
