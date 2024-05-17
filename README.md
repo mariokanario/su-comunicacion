@@ -19,19 +19,17 @@ Abre [http://localhost:3000](http://localhost:3000) con su navegador para ver el
 Para iniciar a editar debe ingresar al archivo `src/app/page.tsx` este es el archivo principal de donde se desprende el resto de las páginas que se encuentran en las carpetas de `app`
 
 
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
 ## Estructura
 
-La estructura del proyecto en next esta dividida de la siguiente forma:
+La estructura del proyecto en Next esta dividida de la siguiente forma:
 
 - Página principal `src/app/page.tsx`
 - Esta tiene un layout principal dividida en 3 partes: header, children (contenido) y footer `src/app/layout.tsx`.
-- Contacto `src/app/contact/page.tsx`
-- Empresa `src/app/about/page.tsx`
-- Portafolio `src/app/portfolio/page.tsx`, dentro de la carpeta de portfolio encuentran las páginas que lo conforman: administration, docuManagement, gedsys, hardware, networks, outsourcing.
+- Página Contacto `src/app/contact/page.tsx`
+- Página Empresa `src/app/about/page.tsx`
+- Página Portafolio `src/app/portfolio/page.tsx`, dentro de la carpeta de portfolio encuentran las páginas que lo conforman: administration, docuManagement, gedsys, hardware, networks, outsourcing.
 
-- Las imágenes las encuentra en `public/img/`
+- Las imágenes se encuentran en `public/img/`
 - El video de Gedsys  `public/video/`
 
 
